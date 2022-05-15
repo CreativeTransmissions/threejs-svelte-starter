@@ -7,7 +7,7 @@
     "start": "sirv public"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.0.0",
@@ -17,7 +17,13 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "3d-nft-viewer": "^1.4.0",
+    "axios": "^0.27.2",
+    "deso-protocol": "^0.2.2",
+    "deso-protocol-types": "^0.2.1",
     "sirv-cli": "^1.0.0",
-    "three": "^0.123.0"
+    "three": "^0.140.2",
+    "tslib": "^2.4.0",
+    "tus-js-client": "^2.3.1"
   }
 }
